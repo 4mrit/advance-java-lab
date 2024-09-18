@@ -1,5 +1,6 @@
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,7 +13,7 @@ import javax.swing.JTextField;
 public class ArithmeticCalculator {
   public static void main(String[] args) {
     JFrame jFrame = new JFrame("Calculator !!");
-    jFrame.setLayout(new FlowLayout());
+    jFrame.setLayout(new GridLayout(5, 2));
     jFrame.setSize(400, 400);
 
     JTextField inputA = new JTextField();

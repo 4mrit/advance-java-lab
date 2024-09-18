@@ -1,0 +1,4 @@
+javac *.java
+rmiregistry &
+java CalculatorServer
+java CalculatorClient
